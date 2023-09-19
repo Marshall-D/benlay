@@ -41,3 +41,23 @@ p {
     /* justify-content: center; */
     align-items: center;
 }
+
+.logo-image {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-text {
+    font-size: 10px;
+    color: black;
+
+}
+
+#bottom-header-bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-button {
+    margin: 2em;
+}
