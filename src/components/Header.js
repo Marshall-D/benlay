@@ -5,7 +5,7 @@ import logo from "../images/organ-logo.jpeg";
 function Header() {
   return (
     <>
-      <header>
+      <header style={{ paddingBottom: "130px" }}>
         <div id="topheader">
           <p>
             Generate your One Time Pass to Heaven. You are just one step away!

@@ -1,0 +1,14 @@
+footer {
+    margin-top: 10em;
+    width: 100%;
+    margin-bottom: 0;
+
+}
+
+#footer-top {
+    color: black;
+}
+
+#footer-bottom {
+    color: blue;
+}
