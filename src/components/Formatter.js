@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Home from "../pages/Home/Home";
 import Footer from "./Footer";
@@ -9,7 +10,8 @@ function Formatter() {
     <>
       <Header />
       {/* <Home /> */}
-      <Contact />
+      {/* <Contact /> */}
+      <About />
       <Footer />
     </>
   );
