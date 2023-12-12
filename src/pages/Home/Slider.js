@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import img1 from "../../images/slider-img-1.jpg";
+import tower from "../../images/tower.jpg";
+import radio from "../../images/radio.png";
+import pan from "../../images/pan.jpg";
+import transplant from "../../images/transplant.jpg";
+import organise from "../../images/organise.jpg";
+import donor from "../../images/donor.jpg";
+
 function Slider() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [totalSlides, setTotalSlides] = useState(4);
@@ -25,19 +33,25 @@ function Slider() {
       onInit={() => setTotalSlides(4)}
     >
       <div className="img-class">
-        <img src="https://dk-media.s3.amazonaws.com/media/1vjrh/headers/3515100/0.jpg" />
+        <img src={img1} />
       </div>
-
       <div className="img-class">
-        <img src="https://dk-media.s3.amazonaws.com/media/1vjrh/headers/3515111/fea-2019-white-coat-ceremony.jpg" />
+        <img src={tower} />
       </div>
-
       <div className="img-class">
-        <img src="https://dk-media.s3.amazonaws.com/media/1vjrh/headers/3515112/landing-banner.jpg" />
+        <img src={radio} />
       </div>
-
       <div className="img-class">
-        <img src="https://dk-media.s3.amazonaws.com/media/1vjrh/headers/3515128/midage_group_inside_doctors_001_web_banner_center.jpg" />
+        <img src={pan} />
+      </div>
+      <div className="img-class">
+        <img src={transplant} />
+      </div>
+      <div className="img-class">
+        <img src={organise} />
+      </div>
+      <div className="img-class">
+        <img src={donor} />
       </div>
     </Carousel>
   );

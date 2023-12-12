@@ -1,0 +1,72 @@
+.donor-button {
+    margin: 2em auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 280px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #2879bd, #0088ba, #0092a9, #009a8e, #3e9e71);
+    font-size: 20px;
+    border: 0;
+    letter-spacing: 1px;
+    color: white;
+    display: block;
+}
+
+.home-h3 {
+    margin: 2em 0.5em;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.images-component {
+    height: fit-content;
+    background-color: #273d80;
+    padding: 3em 1em;
+
+}
+
+.home-container {
+    margin: 3em 0;
+
+}
+
+.home-img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5em;
+
+}
+
+.images-component-h2 {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.images-component-p {
+    margin: 1em;
+    color: white;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.supporters-slider {
+    background-color: #00a088;
+    height: 300px;
+    padding-top: 2em;
+}
+
+.bottom-slider {
+    background-color: #00a088;
+    height: fit-content;
+    padding: 2em 0;
+}
+
+.bottom-img {
+    height: 150px;
+}

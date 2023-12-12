@@ -1,0 +1,43 @@
+.about-header {
+    height: 80px;
+    padding: 1em 0;
+    background-image: url('../images/slider_bg.jpg');
+}
+
+.about-h1 {
+    margin-left: 1em;
+    color: white;
+}
+
+.about-h3 {
+    margin-left: 1em;
+    color: black;
+    text-align: center;
+
+}
+
+.about-p {
+    margin: 2em 1em;
+    color: black;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+
+.about-footer-p {
+    margin: 1em;
+    color: black;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.about-img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.about-footer-container {
+    margin: 3em 0;
+}

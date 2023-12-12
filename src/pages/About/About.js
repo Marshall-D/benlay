@@ -1,17 +1,17 @@
 import React from "react";
-import MainContent from "./MainContent";
-import WeAre from "./WeAre";
-import Whatdo from "./Whatdo";
+import AboutFooter from "./AboutFooter";
+import History from "./History";
+import Mission from "./Mission";
 
 function About() {
   return (
     <>
-      <MainContent />
+      <History />
       <br />
       <br />
+      <Mission />
       <br />
-      <WeAre />
-      <Whatdo />
+      <AboutFooter />
     </>
   );
 }

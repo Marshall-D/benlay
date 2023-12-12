@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router";
 import About from "../pages/About/About";
 import Contact from "../pages/Contact/Contact";
 import Home from "../pages/Home/Home";
@@ -9,9 +10,7 @@ function Formatter() {
   return (
     <>
       <Header />
-      {/* <Home /> */}
-      {/* <Contact /> */}
-      <About />
+      <Outlet />
       <Footer />
     </>
   );

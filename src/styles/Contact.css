@@ -1,0 +1,35 @@
+.contact-header {
+    height: 80px;
+    padding: 1em 0;
+    background-image: url('../images/slider_bg.jpg');
+}
+
+.contact-h1 {
+    color: white;
+    margin-left: 1em;
+}
+
+.main-content-h1 {
+    color: #1d9786;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0;
+    margin-top: -0.3em;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2em 1em;
+}
+
+.bold {
+    margin: 1em;
+    line-height: 1.6em;
+    color: black;
+    font-weight: 700;
+}
+
+.span {
+    font-weight: 400;
+}

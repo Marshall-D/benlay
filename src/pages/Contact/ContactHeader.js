@@ -1,13 +1,10 @@
 import React from "react";
+import "../../styles/Contact.css";
 
 function ContactHeader() {
-  // const image =
   return (
-    <div
-    // trying to put bakground image on contact us text
-    // style={{backgroundImage:image}}
-    >
-      Contact us
+    <div className="contact-header">
+      <h1 className="contact-h1"> Contact us</h1>
     </div>
   );
 }

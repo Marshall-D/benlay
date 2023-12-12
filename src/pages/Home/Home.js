@@ -1,5 +1,10 @@
 import React from "react";
 import Slider from "./Slider";
+import "../../styles/Home.css";
+import ImagesComponent from "./ImagesComponent";
+import SupportersSlider from "./SupportersSlider";
+// import Radio from "./Radio";
+import BottomSlider from "./BottomSlider";
 
 function Home() {
   return (
@@ -9,18 +14,18 @@ function Home() {
         <input
           type="button"
           value="Apply for a donor card"
-          // yet to implement this classname style, using inline styles for now
-          // className="donor-button"
-          style={{ marginTop: "20px" }}
+          className="donor-button"
         />
       </div>
       <div>
-        <p className="black-text">
+        <h3 className="home-h3">
           By pledging your organs you can save upto 8 lives
-        </p>
-
-        <div>arrow</div>
+        </h3>
       </div>
+      <ImagesComponent />
+      <SupportersSlider />
+      {/* <Radio /> */}
+      {/* <BottomSlider /> */}
     </>
   );
 }

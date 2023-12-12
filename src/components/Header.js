@@ -1,7 +1,9 @@
 import React from "react";
+import { Icon } from "@mui/material";
+import Mobile from "./Mobile";
 import "../styles/Header.css";
 import logo from "../images/organ-logo.jpeg";
-
+import InstagramIcon from "@mui/icons-material/Instagram";
 function Header() {
   return (
     <>
@@ -23,8 +25,14 @@ function Header() {
               <img className="logo-image" src={logo} />
               <p className="logo-text"> Under the aegis of notto</p>
             </div>
-
             <div id="inner-bottom-2">
+              <Icon
+                component={InstagramIcon}
+                color="warning"
+                fontSize="medium"
+                // className="icon-img"
+                sx={{ marginLeft: "5em", marginBottom: "0" }}
+              />{" "}
               <input
                 type="button"
                 value="Fund This Cause"
@@ -32,6 +40,7 @@ function Header() {
               />
             </div>
           </div>
+          <Mobile />
         </div>
       </header>
     </>
