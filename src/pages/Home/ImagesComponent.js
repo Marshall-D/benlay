@@ -10,11 +10,18 @@ function ImagesComponent() {
   return (
     <div className="images-component">
       <ImagesComponentItem />
-      <ImagesComponentItem2 />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      <ImagesComponentItem />
+      {/* <ImagesComponentItem2 />
 
       <ImagesComponentItem3 />
       <ImagesComponentItem4 />
-      <ImagesComponentItem5 />
+      <ImagesComponentItem5 /> */}
     </div>
   );
 }

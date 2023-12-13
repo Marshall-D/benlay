@@ -1,20 +1,16 @@
 import React from "react";
-import transplant from "../../images/transplant-new.png";
 import "../../styles/Home.css";
 
 function ImagesComponentItem() {
   return (
     <div className="home-container">
-      <div>
-        <img className="home-img" src={transplant} />
-      </div>
-      <h2 className="images-component-h2">Transplant Guide</h2>
+      <h2 className="images-component-h2">Ekondo Microfinance Bank</h2>
+      <p className="images-component-p">9 Chamley Street, Calabar</p>
       <p className="images-component-p">
-        Need an organ transplant & don't know where to start? Here's a directory
-        of transplant hospitals, doctors & coordinators across India, along with
-        places to stay, labs, chemists, taxis & other facilities where you need
-        to go.
+        Hardware Procurement, Networking, Banking Software Development and ICT
+        Consultancv.
       </p>
+      <p className="images-component-p">Assignment Date: 2002</p>
     </div>
   );
 }

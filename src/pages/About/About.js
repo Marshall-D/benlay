@@ -1,7 +1,6 @@
 import React from "react";
-import AboutFooter from "./AboutFooter";
+import Staff from "./Staff";
 import History from "./History";
-import Mission from "./Mission";
 
 function About() {
   return (
@@ -9,9 +8,8 @@ function About() {
       <History />
       <br />
       <br />
-      <Mission />
       <br />
-      <AboutFooter />
+      <Staff />
     </>
   );
 }

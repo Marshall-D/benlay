@@ -19,10 +19,10 @@ function Mobile() {
                 <Link to="/">Home</Link>
               </li>
               <li className="menu-li">
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/about"> About</Link>
               </li>
               <li className="menu-li">
-                <Link to="/about"> About</Link>
+                <Link to="/contact">Contact Us</Link>
               </li>
             </ul>
           </div>

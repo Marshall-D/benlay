@@ -5,33 +5,26 @@ function History() {
   return (
     <div>
       <div className="about-header">
-        <h1 className="about-h1"> Our History</h1>
+        <h2 className="about-h1">History And Mission</h2>
       </div>
       <p className="about-p">
-        The Organ Receiving & Giving Awareness Network (ORGAN) India, is an
-        initiative that was launched in March 2013 by The Parashar Foundation,
-        (a Delhi-based NGO) to address the dismal state of deceased organ
-        donation in India. We seek to remedy this shortage of organ donors, and
-        help create an ecosystem to facilitate organ donation in India. The
-        Parashar Foundation was set up in 2000 by the late Ashok Parashar, to
-        help the poor and less fortunate by providing funds to various schools,
-        health centers and other organisations. While our previous work was
-        primarily in the form of donations to various causes, we now have a
-        clear goal – to create widespread awareness on organ donation in Delhi,
-        which will benefit everyone, regardless of religion, age, sex, caste, or
-        social standing. For the Parashar Foundation, it is a goal that stems
-        from a personal struggle of one of its members. Kirti Parashar, Ashok
-        Parashar’s wife, who needed a heart transplant. She had the means, the
-        best doctors and a family who supported her. But there was no heart to
-        be found in Delhi and the wait could have been endless. Kirti Parashar
-        moved to Chennai (which has a well-organised network in place), to wait
-        for a new heart, which she got on December 13th after a four month wait!
-        She could afford to move and wait. ORGAN India was formed for the people
-        of India who don’t have the option of leaving their jobs and lives and
-        moving to another city in search of an organ transplant. Trustees:
-        Parashar Foundation Anika Parashar Kirti Parashar Vidur Parashar Captain
-        Pran Nath Parashar Chief Executive Officer – Sunayana Singh Project
-        Manager – Dr. Sourabh Sharma Chief Advisor – Eeda Gujral Chopra
+        BIT Systems was registered in 1994 with the objective to provide
+        reliable and well-tested Solutions to our Customers. Sinceincep- tion,
+        We have continually employed technology as a tool in provi- ding lasting
+        solutions to our customers' needs. Our successes are celebrated based on
+        delivery and customer's satisfaction.{" "}
+      </p>
+
+      <p className="about-p">
+        We believe in total support and provide services and solutions that best
+        enhance our costumers' effectiveness that go beyond rapid and worthwhile
+        returns on investments We Believe that a working svstem needs not be
+        mannedb y an TI Expert; hence, our design methodology is robust, self
+        explanatory with fully integrated and comprehensive accounting
+        procedures, as ti is well known that proper accounting is the core of
+        business. It is a fact, that every business ends in Debit and Credit
+        (Inves- tor's Delights). We Aim to Deliver Peace Of Mind hence our
+        slogan - One Shop One Process and to Deliver Peace of Mind.. 1
       </p>
     </div>
   );

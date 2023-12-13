@@ -58,7 +58,7 @@
 .supporters-slider {
     background-color: #00a088;
     height: 300px;
-    padding-top: 2em;
+    /* padding-top: 2em; */
 }
 
 .bottom-slider {
@@ -69,4 +69,48 @@
 
 .bottom-img {
     height: 150px;
+}
+
+.hero-component-h2 {
+    color: black;
+    text-align: center;
+    font-weight: 400;
+}
+
+.hero-component-p {
+    margin: 1em;
+    color: black;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.slider-p {
+    /* margin: 1em; */
+    color: white;
+    font-size: 32px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.services-h2 {
+    /* margin: 1em; */
+    color: black;
+    font-size: 32px;
+    line-height: 1.6em;
+    text-align: center;
+}
+
+.services-p {
+    color: black;
+    line-height: 1.6em;
+    text-align: center;
+    margin: 1em;
+    font-size: 16px;
+}
+
+.slider-class {
+    background-color: #273d80;
+    height: fit-content;
+    padding: 2em 0.5em;
 }

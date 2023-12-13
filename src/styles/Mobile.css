@@ -153,20 +153,6 @@ nav {
     transform: none;
 }
 
-/* .texts {
-    right: 40px;
-font-size: 40px;
-    text-align: end;
-    margin-right: 30px ;
-    color: #ffffff;
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Recursive', sans-serif;
-font-family: 'Roboto', sans-serif;
-} */
-
-/* .text_div {
-    display: flex;
-} */
 @media screen and (width > 769px) {
     .container-2 {
         display: none;
