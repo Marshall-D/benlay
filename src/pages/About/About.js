@@ -1,6 +1,7 @@
 import React from "react";
-import Staff from "./Staff";
 import History from "./History";
+import Network from "./Network";
+import Staff from "./Staff/Staff";
 
 function About() {
   return (
@@ -10,6 +11,7 @@ function About() {
       <br />
       <br />
       <Staff />
+      <Network />
     </>
   );
 }

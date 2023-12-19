@@ -18,3 +18,26 @@ footer {
     color: #68c0ce;
     text-align: center;
 }
+
+@media screen and (width > 800px) {
+    #footer-top {
+        font-size: 24px;
+    }
+
+    #footer-bottom {
+        font-size: 24px;
+    }
+
+    footer {
+        margin-top: 20em;
+
+    }
+}
+
+
+@media screen and (width > 1020px) {
+    footer {
+        margin-top: 30em;
+
+    }
+}

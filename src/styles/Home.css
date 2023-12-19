@@ -114,3 +114,165 @@
     height: fit-content;
     padding: 2em 0.5em;
 }
+
+.slider-h1 {
+
+    text-align: center;
+    margin: 3em 1em;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+
+@media screen and (width > 800px) {
+    .slider {
+        margin-top: 150px;
+    }
+
+    .donor-button {
+
+
+        margin-top: 50px;
+        height: 60px;
+        width: 350px;
+        border-radius: 30px;
+        font-size: 28px;
+    }
+
+    .home-h3 {
+        font-size: 40px;
+    }
+
+
+    .home-img {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .images-component-h2 {
+        font-size: 30px;
+        font-weight: 600;
+
+    }
+
+    .images-component-p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .supporters-slider {
+        height: 500px;
+
+    }
+
+    .radio-img {
+        width: 700px;
+        height: 400px;
+
+
+    }
+
+    .radio-p {
+
+        font-size: 20px;
+
+    }
+
+    .radio-h2 {
+        font-size: 30px;
+
+    }
+
+    .hero-component-h2 {
+        font-size: 36px;
+    }
+
+    .hero-component-p {
+
+        font-size: 28px;
+
+    }
+
+
+    .services-h2 {
+        /* margin: 1em; */
+        font-size: 40px;
+    }
+
+    .services-p {
+        font-size: 28px;
+    }
+
+
+    .slider-p {
+
+        font-size: 40px;
+
+    }
+
+    .slider-h1 {
+
+
+        font-size: 40px;
+
+    }
+
+}
+
+@media screen and (width > 1020px) {
+    .radio-flex {
+        display: flex;
+        margin: 0 0.5em;
+
+    }
+
+    .radio-img {
+        width: 300px;
+        height: 200px;
+
+    }
+
+    .home-h3 {
+        font-size: 44px;
+    }
+
+    .donor-button {
+
+
+        margin-top: 50px;
+        height: 60px;
+        width: 400px;
+        border-radius: 35px;
+        font-size: 32px;
+    }
+
+    .images-component-h2 {
+        font-size: 34px;
+        font-weight: 600;
+
+    }
+
+    .images-component-p {
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    .supporters-slider {
+        height: 800px;
+
+    }
+
+}
+
+
+@media screen and (width > 2000px) {
+
+    .radio-flex {
+        margin: auto;
+        max-width: 1400px;
+
+    }
+
+}

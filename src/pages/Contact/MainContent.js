@@ -3,17 +3,15 @@ import "../../styles/Contact.css";
 import { Icon } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import Brightness1Icon from "@mui/icons-material/Brightness1";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import blue from "../../images/blue.png";
+
 function MainContent() {
   return (
     <div>
       <div className="contact-container">
-        <Icon
-          component={Brightness1Icon}
-          fontSize="small"
-          sx={{ color: "#273d80" }}
-        />
+        <img className="contact-blue-img" src={blue} />
+
         <h1 className="main-content-h1">Helpline</h1>
       </div>
 

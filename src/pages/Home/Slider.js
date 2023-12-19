@@ -13,20 +13,7 @@ function Slider() {
 
   return (
     <>
-      <h2
-        className="textSize"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "3em 1em",
-          color: "black",
-          textTransform: "uppercase",
-        }}
-      >
-        {" "}
-        THE EXPERT SERIES{" "}
-      </h2>
+      <h2 className="slider-h1"> THE EXPERT SERIES </h2>
 
       <Carousel
         style={{ paddingTop: "100px" }}

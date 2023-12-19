@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/Home.css";
 
-function ImagesComponentItem() {
+function MajorAssItem() {
   return (
     <div className="home-container">
       <h2 className="images-component-h2">Ekondo Microfinance Bank</h2>
@@ -15,4 +15,4 @@ function ImagesComponentItem() {
   );
 }
 
-export default ImagesComponentItem;
+export default MajorAssItem;

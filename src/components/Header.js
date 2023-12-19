@@ -2,6 +2,7 @@ import React from "react";
 import Mobile from "./Mobile";
 import "../styles/Header.css";
 import logo from "../images/logo-2.JPG";
+import Navigation from "./Navigation";
 function Header() {
   return (
     <>
@@ -19,12 +20,13 @@ function Header() {
               </p>
             </div>
             <div id="inner-bottom-2">
-              <h1>BENLAYGROUP</h1>
+              <h1 className="inner-bottom-p">BENLAYGROUP</h1>
             </div>
           </div>
           <Mobile />
         </div>
       </header>
+      <Navigation />
     </>
   );
 }

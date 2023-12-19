@@ -14,20 +14,7 @@ function ServicesSlider() {
 
   return (
     <>
-      <h2
-        className="textSize"
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          margin: "3em 1em",
-          color: "black",
-          textTransform: "uppercase",
-        }}
-      >
-        {" "}
-        OUR SERVICES{" "}
-      </h2>
+      <h2 className="slider-h1"> OUR SERVICES </h2>
       <div className="supporters-slider">
         <Carousel
           autoPlay={true}

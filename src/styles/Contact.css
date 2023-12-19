@@ -33,3 +33,55 @@
 .span {
     font-weight: 400;
 }
+
+.contact-blue-img {
+    /* color: #1d9786 ; */
+    margin-left: 0.5em;
+    margin-top: -0.5em;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (width > 760px) {
+    .main-content-h1 {
+        font-size: 38px;
+
+    }
+
+    .bold {
+        font-size: 20px;
+        margin-left: 5em;
+
+    }
+
+    .span {
+        font-size: 20px;
+
+    }
+
+    .contact-blue-img {
+        margin-left: 5em;
+        margin-top: -0.5em;
+
+    }
+
+    .contact-h1 {
+        margin-left: 2em;
+    }
+}
+
+@media screen and (width > 800px) {
+    .contact-header {
+        margin-top: 150px;
+        font-size: 20px;
+    }
+
+    .contact-blue-img {
+        margin-left: 5em;
+        margin-top: -0.5em;
+    }
+
+    .contact-h1 {
+        margin-left: 2em;
+    }
+}

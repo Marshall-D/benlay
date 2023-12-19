@@ -29,6 +29,9 @@ ul {
 
 }
 
+.navigation {
+    display: none;
+}
 
 
 .content2 {
@@ -153,8 +156,41 @@ nav {
     transform: none;
 }
 
-@media screen and (width > 769px) {
+@media screen and (width > 800px) {
+
+
+    .menu-li {
+        font-size: 16px;
+    }
+
+}
+
+
+@media screen and (width > 1020px) {
+
+
+    .menu-li {
+        font-size: 20px;
+    }
+
+
+}
+
+@media screen and (width > 1200px) {
     .container-2 {
         display: none;
     }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation-p {
+        margin: 0 4em;
+        font-size: 30px;
+        color: #273d80;
+    }
+
+
 }

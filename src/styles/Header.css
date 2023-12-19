@@ -53,6 +53,7 @@ p {
     font-weight: 800;
     color: black;
     margin-top: -3em;
+    margin-left: 1em;
     width: fit-content;
     text-align: center;
 
@@ -92,4 +93,26 @@ p {
     border: 0;
     letter-spacing: 1px;
     color: white;
+}
+
+@media screen and (width > 800px) {
+    #topheader {
+        font-size: 20px;
+    }
+
+
+    .logo-image {
+        width: 160px;
+        height: 140px;
+    }
+
+    .logo-text {
+        font-size: 16px;
+    }
+
+
+    .inner-bottom-p {
+
+        font-size: 44px;
+    }
 }
